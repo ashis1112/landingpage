@@ -1,0 +1,150 @@
+.header-section{
+    height: 100vh;
+    background-image: url('../../images/background.png');
+    width: 100%;
+    overflow: hidden;
+}
+
+.data{
+    transform: translate(10%,80%);
+}
+
+.content{
+    color: rgb(129, 216, 250);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 20px;
+}
+
+button{
+    padding:12px 25px;
+    margin-top:30px;
+    font-size: 17px;
+    background-color: rgba(164, 224, 248, 0.952);
+    outline: none;
+    border: none;
+    z-index: 0;
+}
+
+/* mid-header */
+
+.mid-header{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.mid-image{
+    width: 300px;
+    height: 300px;
+}
+
+.mid-data{
+    padding: 20px;
+    text-align: center;
+}
+
+.mid-data p{
+    margin-top: 15px;
+}
+
+.devlopment .money .interface{
+    margin: 10px;
+}
+
+.interface{
+    margin-left: 10px;
+}
+
+/* Notification */
+
+.notification{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.noti-img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+button{
+    border-radius: 7px;
+}
+
+/* ui */
+
+.ui{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../images/presentation.png');
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+/* download */
+
+.download{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.download-img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+button{
+    border-radius: 7px;
+}
+
+/* Footer */
+
+footer{
+    height: 45vh;
+    background-color: rgba(164, 224, 248, 0.952);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer h2{
+    font-size: 60px;
+}
+.email{
+    padding:0 25px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border-radius: 15px;
+}
+
+.email input{
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+}
+.email button{
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
